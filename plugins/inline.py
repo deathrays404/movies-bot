@@ -95,7 +95,9 @@ def get_reply_markup(query):
         ]
         ]
     return InlineKeyboardMarkup(buttons)
-
+[ InlineKeyboardButton('🤖 Updates', url='https://telegram.me/share/url?url=https://t.me/MALLUROCKERSCLUB_BOT')
+ 
+] 
 
 
 
