@@ -92,12 +92,15 @@ def get_reply_markup(query):
     buttons = [
         [
             InlineKeyboardButton('Search again', switch_inline_query_current_chat=query)
-        ]
+        ][ InlineKeyboardButton('🤖 Share', url='https://telegram.me/share/url?url=https://t.me/MALLUROCKERSCLUB_BOT')
+
+ 
+
+] 
         ]
     return InlineKeyboardMarkup(buttons)
-[ InlineKeyboardButton('🤖 Updates', url='https://telegram.me/share/url?url=https://t.me/MALLUROCKERSCLUB_BOT')
- 
-] 
+
+
 
 
 
